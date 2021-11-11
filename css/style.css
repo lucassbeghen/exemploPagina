@@ -181,3 +181,32 @@ body{
     margin-top: 2px;
     margin-right: 17px;
 }
+
+
+.hamburguer{
+    display: none;
+}
+
+
+.itensDeMenu{
+    display: none;
+}
+
+
+@media(max-width:800px){
+
+    .hamburguer {
+        display: block;
+    }
+
+
+    .itensDeMenu{
+        display: block;
+    }
+
+    .barrasuperior{
+        width: 100%;
+        background-color: #51d275;
+    }
+
+}
